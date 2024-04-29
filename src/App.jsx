@@ -12,7 +12,7 @@ function App() {
           onChange={onChange}
           valorInputs={valorInputs}
         />
-        {estaCargando ? <h2>Cargando...</h2> : <GridGifs gifs={gifs} />}
+        {estaCargando ? <h2>Cargando..</h2> : <GridGifs gifs={gifs} />}
       </div>
     </>
   );
