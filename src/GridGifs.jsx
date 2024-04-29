@@ -6,7 +6,7 @@ export const GridGifs = ({ gifs }) => {
     <div className="grid-gifs">
       {gifs.map((gif,index) => (
         <>
-        <h1>Gif</h1>
+        <h1>Gifds</h1>
           <Gif key={gif.id} gif={gif} index={index}/>
         </>
       ))}
